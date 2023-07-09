@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-seri;
+    background-color: #000;
+    color: #fff;
+}
+
+.pgt{
+    width: 100%;
+    height: 100%;
+}
+
+.topline{
+    padding: 3rem 7rem 0 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+
+.topline .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topline .left h2{
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.topline .left h3{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.topline .right h3{
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.topline .right p{
+    font-size: 15px;
+}
+
+.intro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro .titles{
+    padding: 8rem 7rem 0 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.intro .titles .left-tit{
+    width: 55%;
+}
+.intro .titles .left-tit h2{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.intro .titles .right-tit{
+    width: 40%;
+}
+
+.slider{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #18181A;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%)
+}
